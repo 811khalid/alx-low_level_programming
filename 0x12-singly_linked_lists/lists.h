@@ -10,6 +10,7 @@
  * for Holberton project
  */
 typedef struct list_s
+/*Defines a linked list structure called list_t*/
 {
 char *str;
 unsigned int len;
