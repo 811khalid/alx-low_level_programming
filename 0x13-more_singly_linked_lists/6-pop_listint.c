@@ -2,7 +2,7 @@
 /**
  * pop_listint - deletes the head node
  * @head: pointer to the first element
- * Return: the data inside the elements that was deleted, or 0 
+ * Return: the data inside the elements that was deleted, or 0
  */
 int pop_listint(listint_t **head)
 {
