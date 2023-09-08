@@ -1,12 +1,14 @@
 #ifndef MAIN_H
 #define MAIN_H
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
-ssize_t read_tfile(const char *filen, size_t letter);
-int c_file(const char *filen, char *t_content);
-int append_t_to_f(const char *filen, char *t_content);
+
+ssize_t read_textfile(const char *filename, size_t letters);
+int create_file(const char *filename, char *text_content);
+int append_text_to_file(const char *filename, char *text_content);
 
 #endif
 
