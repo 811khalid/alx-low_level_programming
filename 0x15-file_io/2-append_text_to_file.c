@@ -16,8 +16,8 @@ if (t_content != NULL)
 for (lens = 0; t_content[lens];)
 lens++;
 }
-op = open(filename, O_WRONLY | O_APPEND);
-wr = write(o, t_content, len);
+op = open(filen, O_WRONLY | O_APPEND);
+wr = write(op, t_content, lens);
 if (op == -1 || wr == -1)
 return (-1);
 close(op);
