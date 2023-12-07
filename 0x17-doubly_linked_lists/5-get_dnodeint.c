@@ -19,7 +19,7 @@ node = node->next;
 return (node);
 }
 /**
-  * dlistint_len - returns no of elements 
+  * dlistint_len - returns no of elements
   * @h: point to head
   * Return: No of elements
   */
